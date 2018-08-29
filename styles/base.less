@@ -531,12 +531,12 @@
 }
 
 .syntax--markup.syntax--raw {
-  color: fadeout(@boxy-black, 20%);
-  background-color: fade(@boxy-black, 3%);
+  color: fadeout(@boxy-white, 20%);
+  background-color: fade(@boxy-white, 9%);
 }
 
 .syntax--linebreak.syntax--gfm {
-  background-color: fade(@boxy-black, 3%);
+  background-color: fade(@boxy-white, 9%);
 }
 
 .syntax--markup.syntax--heading {
@@ -597,8 +597,8 @@
 }
 
 .syntax--support.syntax--quote {
-  color: @boxy-black;
-  background-color: fade(@boxy-white, 3%);
+  color: fade(@boxy-white, 20%);
+  background-color: fade(@boxy-white, 20%);
 }
 
 .syntax--markup.syntax--quote {
@@ -608,7 +608,7 @@
 
 .syntax--markup.syntax--code {
   > .syntax--support {
-    background-color: fade(@boxy-white, 3%);
+    background-color: fade(@boxy-white, 9%);
     color: fadeout(@boxy-white, 20%);
   }
 }
@@ -616,12 +616,12 @@
 .syntax--comment.syntax--hr {
   font-weight: bold;
   color: @boxy-gray;
-  background-color: fade(@boxy-white, 3%);
+  background-color: fade(@boxy-white, 20%);
 }
 
 .syntax--table {
   color: @boxy-gray;
-  background-color: fade(@boxy-white, 3%);
+  background-color: fade(@boxy-white, 20%);
 
   > .syntax--border {
     color: fadeout(@boxy-white, 69%);
@@ -650,6 +650,7 @@
 
 .syntax--critic.syntax--highlight {
   background-color: fadeout(@boxy-purple, 69%);
+  color: @syntax-text-color;
   font-style: italic;
 
   &.syntax--marker {
@@ -660,6 +661,7 @@
 
 .syntax--critic.syntax--addition {
   background-color: fadeout(@boxy-green, 69%);
+  color: @syntax-text-color;
   font-style: italic;
 
   &.syntax--marker {
@@ -670,7 +672,7 @@
 
 .syntax--critic.syntax--comment {
   background-color: fadeout(@boxy-blue, 69%);
-  color: @boxy-black;
+  color: @syntax-text-color;
   font-style: italic;
 
   &.syntax--marker {
@@ -681,6 +683,7 @@
 
 .syntax--critic.syntax--substitution {
   background-color: fadeout(@boxy-orange, 69%);
+  color: @syntax-text-color;
   font-style: italic;
 
   &.syntax--marker,
@@ -692,6 +695,7 @@
 
 .syntax--critic.syntax--deletion {
   background-color: fadeout(@boxy-red, 69%);
+  color: @syntax-text-color;
   font-style: italic;
 
   &.syntax--marker {

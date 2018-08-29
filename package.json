@@ -1,0 +1,15 @@
+{
+  "name": "boxy-nova-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A darkly Boxy Atom theme.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/phyllisstein/atom-nova-syntax.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
